@@ -16,11 +16,11 @@
 
 package com.github.sardine.impl.handler;
 
+import ch.boye.httpclientandroidlib.HttpResponse;
+import ch.boye.httpclientandroidlib.HttpStatus;
+import ch.boye.httpclientandroidlib.StatusLine;
+import ch.boye.httpclientandroidlib.client.ResponseHandler;
 import com.github.sardine.impl.SardineException;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.StatusLine;
-import org.apache.http.client.ResponseHandler;
 
 /**
  * Basic response handler which takes an url for documentation.

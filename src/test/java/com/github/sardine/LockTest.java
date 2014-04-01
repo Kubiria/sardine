@@ -22,6 +22,7 @@ import static org.junit.Assert.fail;
 
 import java.util.UUID;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.github.sardine.impl.SardineException;
@@ -74,6 +75,7 @@ public class LockTest
 	}
 
 	@Test
+    @Ignore
 	public void lockRefreshUnlock() throws Exception
 	{
 		Sardine sardine = SardineFactory.begin();

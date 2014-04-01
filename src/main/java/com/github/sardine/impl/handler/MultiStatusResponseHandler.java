@@ -16,18 +16,18 @@
 
 package com.github.sardine.impl.handler;
 
+import ch.boye.httpclientandroidlib.HttpEntity;
+import ch.boye.httpclientandroidlib.HttpResponse;
+import ch.boye.httpclientandroidlib.StatusLine;
 import com.github.sardine.impl.SardineException;
 import com.github.sardine.model.Multistatus;
 import com.github.sardine.util.SardineUtil;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.StatusLine;
 
 import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * {@link org.apache.http.client.ResponseHandler} which returns the {@link Multistatus} response of
+ * {@link ValidatingResponseHandler} which returns the {@link Multistatus} response of
  * a {@link com.github.sardine.impl.methods.HttpPropFind} request.
  *
  * @author mirko

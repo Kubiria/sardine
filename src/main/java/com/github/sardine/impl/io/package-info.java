@@ -15,6 +15,6 @@
  */
 
 /**
- * I/O support {@link org.apache.http.client.HttpClient} implementation.
+ * I/O support {@link ch.boye.httpclientandroidlib.client.HttpClient} implementation.
  */
 package com.github.sardine.impl.io;

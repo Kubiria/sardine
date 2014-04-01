@@ -16,8 +16,8 @@
 
 package com.github.sardine.impl.handler;
 
-import org.apache.http.HttpHeaders;
-import org.apache.http.HttpResponse;
+import ch.boye.httpclientandroidlib.HttpHeaders;
+import ch.boye.httpclientandroidlib.HttpResponse;
 
 import java.io.IOException;
 

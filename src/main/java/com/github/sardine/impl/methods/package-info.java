@@ -15,6 +15,6 @@
  */
 
 /**
- * WebDAV methods for {@link org.apache.http.client.HttpClient} implementation.
+ * WebDAV methods for {@link ch.boye.httpclientandroidlib.client.HttpClient} implementation.
  */
 package com.github.sardine.impl.methods;

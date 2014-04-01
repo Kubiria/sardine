@@ -16,14 +16,13 @@
 
 package com.github.sardine.impl.handler;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.StatusLine;
-
+import ch.boye.httpclientandroidlib.HttpResponse;
+import ch.boye.httpclientandroidlib.HttpStatus;
+import ch.boye.httpclientandroidlib.StatusLine;
 import com.github.sardine.impl.SardineException;
 
 /**
- * {@link org.apache.http.client.ResponseHandler} which checks wether a given resource exists.
+ * {@link ValidatingResponseHandler} which checks wether a given resource exists.
  *
  * @author mirko
  */

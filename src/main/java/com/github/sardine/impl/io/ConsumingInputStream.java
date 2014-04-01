@@ -16,8 +16,8 @@
 
 package com.github.sardine.impl.io;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.util.EntityUtils;
+import ch.boye.httpclientandroidlib.HttpResponse;
+import ch.boye.httpclientandroidlib.util.EntityUtils;
 
 import java.io.IOException;
 

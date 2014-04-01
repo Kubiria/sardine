@@ -16,13 +16,13 @@
 
 package com.github.sardine.impl.handler;
 
-import org.apache.http.HttpResponse;
+import ch.boye.httpclientandroidlib.HttpResponse;
 
 import java.io.IOException;
 
 /**
- * {@link org.apache.http.client.ResponseHandler} which just executes the request and checks the answer is
- * in the valid range of {@link ValidatingResponseHandler#validateResponse(org.apache.http.HttpResponse)}.
+ * {@link ValidatingResponseHandler} which just executes the request and checks the answer is
+ * in the valid range of {@link ValidatingResponseHandler#validateResponse(HttpResponse)}.
  *
  * @author mirko
  */

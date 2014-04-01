@@ -18,7 +18,7 @@ package com.github.sardine.impl.methods;
 
 import java.net.URI;
 
-import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
+import ch.boye.httpclientandroidlib.client.methods.HttpEntityEnclosingRequestBase;
 
 /**
  * Simple class for making <code>MKCOL</code> requests.

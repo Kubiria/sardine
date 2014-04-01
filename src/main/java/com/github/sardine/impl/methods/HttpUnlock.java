@@ -18,8 +18,8 @@ package com.github.sardine.impl.methods;
 
 import java.net.URI;
 
-import org.apache.http.HttpHeaders;
-import org.apache.http.client.methods.HttpRequestBase;
+import ch.boye.httpclientandroidlib.HttpHeaders;
+import ch.boye.httpclientandroidlib.client.methods.HttpRequestBase;
 
 /**
  */
